@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.56c05859.chunk.css",
+    "main.js": "/portfolio/static/js/main.61ad7096.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.61ad7096.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8fed2963.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8fed2963.js.map",
+    "static/js/2.7cb03e9b.chunk.js": "/portfolio/static/js/2.7cb03e9b.chunk.js",
+    "static/js/2.7cb03e9b.chunk.js.map": "/portfolio/static/js/2.7cb03e9b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.56c05859.chunk.css.map": "/portfolio/static/css/main.56c05859.chunk.css.map",
+    "static/js/2.7cb03e9b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cb03e9b.chunk.js.LICENSE.txt",
+    "static/media/CSS.46820e81.png": "/portfolio/static/media/CSS.46820e81.png",
+    "static/media/cv.3d9cc9e9.png": "/portfolio/static/media/cv.3d9cc9e9.png",
+    "static/media/desk.b4b3f2b8.png": "/portfolio/static/media/desk.b4b3f2b8.png",
+    "static/media/figma.08ff1bbd.png": "/portfolio/static/media/figma.08ff1bbd.png",
+    "static/media/html.9ba3abf8.png": "/portfolio/static/media/html.9ba3abf8.png",
+    "static/media/js.bd51d60d.png": "/portfolio/static/media/js.bd51d60d.png",
+    "static/media/linux.848966ff.png": "/portfolio/static/media/linux.848966ff.png",
+    "static/media/lofi.8da16b0e.png": "/portfolio/static/media/lofi.8da16b0e.png",
+    "static/media/me.ce5141f9.png": "/portfolio/static/media/me.ce5141f9.png",
+    "static/media/node.018f2fdb.png": "/portfolio/static/media/node.018f2fdb.png",
+    "static/media/ps.d3fc5339.png": "/portfolio/static/media/ps.d3fc5339.png",
+    "static/media/react.64bf9e1a.png": "/portfolio/static/media/react.64bf9e1a.png",
+    "static/media/sass.ec7dbe16.png": "/portfolio/static/media/sass.ec7dbe16.png",
+    "static/media/todo.f655ffc3.png": "/portfolio/static/media/todo.f655ffc3.png",
+    "static/media/vsc.994a72f0.png": "/portfolio/static/media/vsc.994a72f0.png",
+    "static/media/weather-app.02defb97.png": "/portfolio/static/media/weather-app.02defb97.png",
+    "static/media/webpack.97412a36.png": "/portfolio/static/media/webpack.97412a36.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fed2963.js",
+    "static/js/2.7cb03e9b.chunk.js",
+    "static/css/main.56c05859.chunk.css",
+    "static/js/main.61ad7096.chunk.js"
+  ]
+}
