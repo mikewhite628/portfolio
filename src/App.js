@@ -6,9 +6,8 @@ import './App.css';
 
 function App() {
   return (
-    <div style={{backgroundColor: '#eeeeee'}}>
+    <div style={{backgroundColor: '#eeeeee'}} className='container'>
     <Landing />
-    <Header />
     <About />
     <Projects />
     </div>

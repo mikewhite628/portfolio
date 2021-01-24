@@ -9,8 +9,8 @@ const About = () => {
         backgroundColor: '$eeeeee',
         color: '#252a34'
         }}>
-            <h1> About </h1>
-            <div>
+            <h1 className='about-title'> About </h1>
+            <div className='about-text'>
             I'm a self taught developer who loves simple yet effective design
             </div>
 

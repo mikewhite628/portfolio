@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import weatherPic from '../../images/weather-app.png'
+import todoPic from '../../images/todo.png'
+import cvPic from '../../images/cv.png'
 
 const Projects = () => {
 
@@ -8,12 +11,11 @@ const Projects = () => {
         }}>
             <h1> Projects </h1>
             <div className='project-display'>
-                <div className='weather-app'> weather app picture and discription here with link to github </div>
-                <div className='todo-app'> todo app picture and discription here with link to github </div>
-                <div className='cv-app'> cv app picture and discription here with link to github </div>
-                <div className='coffee-app'> coffeeapp picture and discription here with link to github </div>
-                <div className='cal-app'> calc app picture and discription here with link to github </div>
-                <div className='sketch-app'> sketch app picture and discription here with link to github </div>
+                <div className='weather-app'> <img src={weatherPic} className='project-image'/></div>
+                <div className='todo-app'> <img src={todoPic} className='project-image'/> </div>
+                <div className='cv-app'> <img src={cvPic} className='project-image'/> </div>
+
+
                 
             </div>
         </div>
