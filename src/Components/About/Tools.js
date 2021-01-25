@@ -13,19 +13,21 @@ import webpackIcon from '../../images/webpack.png'
 const Tools = () => {
 
     return (
-        <div className='tool-section'>
-        <h2>My Tools</h2>
             <div className='tools'>
-                <div className='npm'><div className='npm-icon'></div><img src={npmIcon} className='big-icon' /></div>  
-                <div className='node'><div className='node-icon'></div><img src={nodeIcon} className='big-icon' /></div>  
-                <div className='git'><div className='git-icon'></div><img src={gitIcon} className='big-icon' /></div>
-                <div className='linux'><div className='linux-icon'></div><img src={linuxIcon} className='big-icon' /></div>
-                <div className='webpack'><div className='webpack-icon'></div> <img src={webpackIcon} className='big-icon' /></div> 
-                <div className='vscode'><div className='vscode-icon'></div> <img src={vscIcon} className='big-icon' /></div> 
-                <div className='photoshop'><div className='photoshop-icon'></div> <img src={psIcon} className='big-icon' /></div> 
-                <div className='figma'><div className='figma-icon'></div> <img src={figmaIcon} className='big-icon' /></div> 
-                <div className='lofi'><div className='lofi-icon'></div> <img src={lofiIcon} className='big-icon' /></div> 
-            </div>
+                <h2 className='tool-title'>My Tools</h2>
+                <img src={npmIcon} className='big-icon npm-icon' />
+                <img src={nodeIcon} className='big-icon node-icon' />
+                <img src={gitIcon} className='big-icon git-icon' />
+                <img src={linuxIcon} className='big-icon linux-icon' />
+                <img src={webpackIcon} className='big-icon webpack-icon' />
+                <img src={vscIcon} className='big-icon vsc-icon' />
+                <img src={psIcon} className='big-icon ps-icon' />
+                <img src={figmaIcon} className='big-icon figma-icon' />
+                <img src={lofiIcon} className='big-icon lofi-icon' />
+                <div className='dpad-x'></div>
+                <div className='dpad-y'></div>
+                <div className='selectors'></div>
+                <div className='buttons'></div>
             </div>
     )
 }
