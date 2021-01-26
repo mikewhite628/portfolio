@@ -2,23 +2,22 @@ import React, { useState, useEffect } from 'react'
 import weatherPic from '../../images/weather-app.png'
 import todoPic from '../../images/todo.png'
 import cvPic from '../../images/cv.png'
+import Header from '../Header/Header'
 
 const Projects = () => {
 
     return (
         <div className='projects' style={{
-           color:'#252a34'
+           backgroundColor:'#252a34',
+           color: '#eeeeee'
         }}>
+            <Header />
             <h1> Projects </h1>
-            <div className='project-display'>
-                <div className='weather-app'> <img src={weatherPic} className='project-image'/></div>
-                <div className='todo-app'> <img src={todoPic} className='project-image'/> </div>
-                <div className='cv-app'> <img src={cvPic} className='project-image'/> </div>
-
-
-                
+                <img src={weatherPic} className='project-image weather-app'/>
+               <img src={todoPic} className='project-image todo-app'/>
+               <img src={cvPic} className='project-image cv-app'/>          
             </div>
-        </div>
+
     )
 }
 

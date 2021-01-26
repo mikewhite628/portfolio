@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Header from '../Header/Header'
 import Skills from './Skills'
 import Tools from './Tools'
 
@@ -9,13 +10,19 @@ const About = () => {
         backgroundColor: '$eeeeee',
         color: '#252a34'
         }}>
-            <h1 className='about-title'> About </h1>
+            <Header />
             <div className='about-text'>
-            I'm a self taught developer who loves simple yet effective design
+            <h1 className='about-title'> About </h1>
+            I'm a self taught developer who loves simple, effective design.
+            twitter
+            youtube
+            github
+
             </div>
 
             <Skills />
             <Tools />
+            
 
             
         </div>

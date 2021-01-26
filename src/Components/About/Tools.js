@@ -14,7 +14,7 @@ const Tools = () => {
 
     return (
             <div className='tools'>
-                <h2 className='tool-title'>My Tools</h2>
+                <h2 className='tool-title'>Tools</h2>
                 <img src={npmIcon} className='big-icon npm-icon' />
                 <img src={nodeIcon} className='big-icon node-icon' />
                 <img src={gitIcon} className='big-icon git-icon' />
