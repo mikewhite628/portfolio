@@ -13,9 +13,9 @@ const Projects = () => {
         }}>
             <Header />
             <h1> Projects </h1>
-                <img src={weatherPic} className='project-image weather-app'/>
-               <img src={todoPic} className='project-image todo-app'/>
-               <img src={cvPic} className='project-image cv-app'/>          
+                <div className='project1'><a href='https://mikewhite628.github.io/weather-app/'><img src={weatherPic} className='project-image weather-app'/></a></div>
+                <div className='project2'><a href='https://mikewhite628.github.io/to-do-list//'><img src={todoPic} className='project-image todo-app'/></a></div>
+                <div className='project3'><a href='https://mikewhite628.github.io/cv-project//'><img src={cvPic} className='project-image cv-app'/> </a></div>     
             </div>
 
     )

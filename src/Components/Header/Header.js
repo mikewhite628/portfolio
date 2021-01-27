@@ -8,11 +8,6 @@ const Header = () => {
 
     const [navAbout, setNavAbout] = useState()
 
-    const goAbout = () => {
-        return (
-           <About />
-        )
-    }
 
     return (
         <div>

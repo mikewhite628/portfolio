@@ -12,7 +12,7 @@ const Skills = () => {
 
     return (
         <div className='skills'>
-            <div className='js skill-bar'><div className='js-meter meter'></div></div><img src={jsIcon} className='icon js-icon' />
+            <div className='js skill-bar'><div className='js-meter meter'></div><img src={jsIcon} className='icon js-icon' /></div>
             <div className='html skill-bar'><div className='html-meter meter'></div><img src={htmlIcon} className='icon html-icon' /></div>
             <div className='css skill-bar'><div className='css-meter meter'></div><img src={cssIcon} className='icon css-icon' /></div>
             <div className='sass skill-bar'><div className='sass-meter meter'></div><img src={sassIcon} className='icon sass-icon' /></div>

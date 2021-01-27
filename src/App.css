@@ -18,6 +18,7 @@ body {
   margin: 10px;
   padding-right: 10px;
   border-right: 1px solid #08d9d6;
+  font-size: 20px;
 }
 .nav li a {
   text-decoration: none;
@@ -40,8 +41,9 @@ body {
 }
 
 .greeting {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  grid-column: 2/2;
+  grid-row: 1/3;
+  align-self: center;
 }
 
 .desk {
@@ -56,7 +58,8 @@ body {
 
 .me {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 1/3;
+  align-self: center;
 }
 
 .me-pic {
@@ -74,7 +77,12 @@ body {
   grid-template-rows: repeat(auto-fill);
   justify-self: center;
   box-shadow-left: 1px 1px 3px;
-  padding-bottom: 200px;
+}
+.about ul {
+  list-style-type: none;
+}
+.about ul li {
+  font-size: 20px;
 }
 
 .about-title {
@@ -86,25 +94,36 @@ body {
   width: 100%;
 }
 
+.social-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.social-container {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  justify-self: center;
+}
+
 .skills {
   grid-row: 3/4;
   width: 100%;
-  border-left: 4px solid #08d9d6;
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
 }
 
 .skill-bar {
-  height: 30px;
+  height: 20px;
   background-color: #cccccc;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 10px;
 }
 
 .meter {
   border: none;
-  height: 30px;
+  height: 20px;
   background-color: #ff2e63;
   color: #eeeeee;
   border-radius: 0px 10px 10px 0px;
@@ -181,13 +200,12 @@ body {
   width: 30px;
   border: 2px solid #252a34;
   box-shadow: 1px 1px 3px;
-  margin-top: -33px;
+  margin-top: -28px;
+  margin-right: -20px;
   float: right;
 }
 
 .js-icon {
-  margin-top: -53px;
-  margin-right: 10px;
   animation: jsPulse;
   animation-duration: 1s;
   animation-delay: 3s;
@@ -273,30 +291,41 @@ body {
   }
 }
 .big-icon {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border: 3px solid #252a34;
   box-shadow: 3px 3px 5px;
   z-index: 10;
+}
+
+.lofi-icon {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+
+.figma-icon {
+  height: 50px;
+  width: 50px;
 }
 
 .tools {
   grid-column: 1/3;
   grid-row: 4/5;
   display: grid;
-  width: 500px;
-  height: 200px;
+  width: 400px;
+  height: 150px;
   background-color: #252a34;
   grid-template-columns: 12% 12% 12% 7% 12% 12% 7% 12%;
   grid-template-rows: 30% 30% 30%;
   border: 5px solid #cccccc;
   padding: 10px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-right: 50px;
   box-shadow: 3px 3px 10px;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .tool-title {
@@ -351,9 +380,9 @@ body {
 }
 
 .dpad-x {
-  width: 190px;
-  height: 70px;
-  margin-left: -4px;
+  width: 150px;
+  height: 57px;
+  margin-left: -2px;
   background-color: #cccccc;
   grid-row: 2/3;
   grid-column: 1/4;
@@ -361,8 +390,8 @@ body {
 }
 
 .dpad-y {
-  width: 70px;
-  height: 200px;
+  width: 57px;
+  height: 150px;
   margin-left: -4px;
   background-color: #cccccc;
   grid-column: 2/3;
@@ -371,9 +400,9 @@ body {
 }
 
 .selectors {
-  height: 70px;
-  width: 140px;
-  margin-left: -10px;
+  width: 110px;
+  height: 57px;
+  margin-left: -8px;
   background-color: #cccccc;
   grid-column: 5/7;
   grid-row: 3/4;
@@ -381,7 +410,7 @@ body {
 }
 
 .buttons {
-  height: 80px;
+  height: 65px;
   width: 140px;
   margin-left: -14px;
   background-color: #cccccc;
@@ -397,14 +426,30 @@ body {
   height: 100%;
   width: 70%;
   justify-self: center;
-  grid-template-rows: 100px 0.2fr 0.2fr 0.2fr;
+  grid-template-rows: 100px 0.2fr 0.2fr 0.2fr 0.2fr;
+  grid-template-columns: 50% 50%;
   justify-items: left;
 }
 
 .project-image {
   height: 250px;
   width: 450px;
-  border: 5px solid #252a34;
+  border: 1px solid #252a34;
+}
+
+.poroject1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.project2 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.project3 {
+  grid-column: 1/2;
+  grid-row: 5/6;
 }
 
 /*# sourceMappingURL=App.css.map */
