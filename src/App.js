@@ -10,10 +10,11 @@ function App() {
   return (
     <Router>
     <div style={{backgroundColor: '#eeeeee'}} className='container'>
-    </div>
-      <Route path="/" component={Landing} />
+    
+      <Route path="/" exact component={Landing} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
+      </div>
     </Router>
 
   );

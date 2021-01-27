@@ -8,8 +8,8 @@ const Projects = () => {
 
     return (
         <div className='projects' style={{
-           backgroundColor:'#252a34',
-           color: '#eeeeee'
+           backgroundColor:'#eeeeee',
+           color: '#252a34'
         }}>
             <Header />
             <h1> Projects </h1>

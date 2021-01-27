@@ -12,11 +12,11 @@ const Skills = () => {
 
     return (
         <div className='skills'>
-            <div className='js'><div className='js-meter'></div></div><img src={jsIcon} className='icon js-icon' />
-            <div className='html'><div className='html-meter'></div><div className='html-icon'><img src={htmlIcon} className='icon' /></div></div>
-            <div className='css'><div className='css-meter'></div><div className='css-icon'><img src={cssIcon} className='icon' /></div></div>
-            <div className='sass'><div className='sass-meter'></div><div className='sass-icon'><img src={sassIcon} className='icon' /></div></div>
-            <div className='react'><div className='react-meter'></div><div className='react-icon'><img src={reactIcon} className='icon' /></div></div>
+            <div className='js skill-bar'><div className='js-meter meter'></div></div><img src={jsIcon} className='icon js-icon' />
+            <div className='html skill-bar'><div className='html-meter meter'></div><img src={htmlIcon} className='icon html-icon' /></div>
+            <div className='css skill-bar'><div className='css-meter meter'></div><img src={cssIcon} className='icon css-icon' /></div>
+            <div className='sass skill-bar'><div className='sass-meter meter'></div><img src={sassIcon} className='icon sass-icon' /></div>
+            <div className='react skill-bar'><div className='react-meter meter'></div><img src={reactIcon} className='icon react-icon' /></div>
         </div>
     )
 }
