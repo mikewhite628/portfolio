@@ -18,7 +18,7 @@ const About = () => {
             <Header />
             <div className='about-text'>
             <h1 className='about-title'> About </h1>
-            I'm a self taught developer who loves simple, effective design.
+            I'm a self taught developer who loves simple, effective design. 
             </div>
             <div className='social-container'>
                 <a href='https://twitter.com/Th3MichaelWhite'><img src={twitterPic} className='social-icon' /></a>
