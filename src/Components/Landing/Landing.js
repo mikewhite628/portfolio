@@ -23,7 +23,7 @@ const Landing = () => {
                      paddingRight: '10px',
                      color: '#08d9d6'
                     }
-                }>Learn more</Link>
+                }>Learn-more</Link>
             </h2>
             
 
