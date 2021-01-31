@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
     <div style={{backgroundColor: '#eeeeee'}} className='container'>
-      <Route path="/" exact component={Landing} />
+      <Route path="/" component={Landing} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       </div>
