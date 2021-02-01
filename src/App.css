@@ -4,6 +4,8 @@ body {
   background-color: #eeeeee;
   font-family: "Barlow Condensed";
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .container {
@@ -11,32 +13,52 @@ body {
 }
 
 .nav {
-  width: 100%;
   list-style: none;
   display: flex;
+  position: sticky;
+  z-index: 100;
+  height: 40px;
+  align-items: center;
+  right: 0;
 }
 .nav li {
   margin: 10px;
   padding-right: 10px;
   border-right: 2px solid #08d9d6;
   font-size: 20px;
+  color: #a924d6;
 }
-.nav li a {
-  text-decoration: none;
+
+.scrolled {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: rgba(37, 42, 52, 0.9);
+}
+
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  margin-left: -10px;
+  padding-right: 100px;
+  margin-top: -10px;
+  height: 100%;
 }
 
 .landing {
+  margin: auto;
   grid-row: 1/2;
-  margin-left: -10px;
-  padding-right: 30px;
-  margin-top: -10px;
-  height: 100vh;
-  width: 100%;
+  min-height: 100vh;
   min-width: 500px;
+  max-width: 900px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr;
   justify-items: center;
   font-size: 24px;
 }
@@ -50,14 +72,15 @@ body {
 }
 
 .desk {
-  grid-column: 2/3;
+  grid-column: 1/4;
   grid-row: 3/4;
-  width: 100%;
+  justify-self: center;
 }
 
 .desk-pic {
   height: 200px;
-  width: 400px;
+  width: 360px;
+  margin-right: -50px;
 }
 
 .me {
@@ -77,7 +100,7 @@ body {
   grid-row: 2/3;
   grid-column: 1/2;
   display: grid;
-  height: 100vh;
+  height: 100%;
   width: 70%;
   grid-template-rows: repeat(auto-fill);
   justify-self: center;
@@ -98,7 +121,7 @@ body {
 .about-text {
   grid-row: 2/3;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .social-icon {
@@ -145,71 +168,46 @@ body {
   margin-left: -8px;
 }
 
-.js-meter {
-  animation: jsFill 3.5s ease-in-out;
-  animation-fill-mode: both;
+[data-aos=load-js] {
+  width: 0;
+  animation: ease-in-out;
+}
+[data-aos=load-js].aos-animate {
+  width: 65%;
 }
 
-.html-meter {
-  animation: htmlFill 4s ease-in-out;
-  animation-fill-mode: both;
+[data-aos=load-html] {
+  width: 0;
+  animation: ease-in-out;
+}
+[data-aos=load-html].aos-animate {
+  width: 70%;
 }
 
-.css-meter {
-  animation: cssFill 4.5s ease-in-out;
-  animation-fill-mode: both;
+[data-aos=load-css] {
+  width: 0;
+  animation: ease-in-out;
+}
+[data-aos=load-css].aos-animate {
+  width: 75%;
 }
 
-.sass-meter {
-  animation: sassFill 5s ease-in-out;
-  animation-fill-mode: both;
+[data-aos=load-sass] {
+  width: 0;
+  animation: ease-in-out;
+}
+[data-aos=load-sass].aos-animate {
+  width: 70%;
 }
 
-.react-meter {
-  animation: reactFill 5.5s ease-in-out;
-  animation-fill-mode: both;
+[data-aos=load-react] {
+  width: 0;
+  animation: ease-in-out;
+}
+[data-aos=load-react].aos-animate {
+  width: 55%;
 }
 
-@keyframes jsFill {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 65%;
-  }
-}
-@keyframes htmlFill {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@keyframes cssFill {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 75%;
-  }
-}
-@keyframes sassFill {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@keyframes reactFill {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 55%;
-  }
-}
 .icon {
   height: 30px;
   width: 30px;
@@ -220,91 +218,13 @@ body {
   float: right;
 }
 
-.js-icon {
-  animation: jsPulse;
-  animation-duration: 1s;
-  animation-delay: 3s;
+[data-aos=pulse] {
+  animation: transform;
+}
+[data-aos=pulse].aos-animate {
+  transform: scale(1.2);
 }
 
-.html-icon {
-  animation: htmlPulse;
-  animation-duration: 1s;
-  animation-delay: 3.5s;
-}
-
-.css-icon {
-  animation: cssPulse;
-  animation-duration: 1s;
-  animation-delay: 4s;
-}
-
-.sass-icon {
-  animation: sassPulse;
-  animation-duration: 1s;
-  animation-delay: 4.5s;
-}
-
-.react-icon {
-  animation: reactPulse;
-  animation-duration: 1s;
-  animation-delay: 5s;
-}
-
-@keyframes jsPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes htmlPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes cssPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes sassPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes reactPulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 .big-icon {
   height: 40px;
   width: 40px;
@@ -441,10 +361,12 @@ body {
   display: grid;
   height: 100%;
   max-width: 1100px;
+  width: 70%;
   justify-self: center;
   grid-template-rows: 60px 50px 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   text-shadow: 0.2px 0.2px 1.8px;
+  margin-top: 50px;
 }
 
 .project-title {
@@ -468,99 +390,38 @@ body {
   grid-column: 1/2;
   grid-row: 3/4;
   margin-top: 10px;
-  animation: 2s ease-in 1s reverse both running slideIn1;
 }
 
 .project2 {
   grid-column: 1/2;
   grid-row: 4/5;
-  animation: 3s ease-in 1s reverse both running slideIn2;
 }
 
 .project3 {
   grid-column: 1/2;
   grid-row: 5/6;
-  animation: 4s ease-in 1s reverse both running slideIn3;
 }
 
 .project1-desc {
   grid-column: 2/3;
   grid-row: 3/4;
-  animation: fadeIn1 ease-in 7s;
   min-width: 150px;
 }
 
 .project2-desc {
   grid-column: 2/3;
   grid-row: 4/5;
-  animation: fadeIn2 ease-in 8s;
   min-width: 150px;
 }
 
 .project3-desc {
   grid-column: 2/3;
   grid-row: 5/6;
-  animation: fadeIn3 ease-in 9s;
   min-width: 150px;
 }
 
 .desc-text {
   margin-left: 20px;
-}
-
-@keyframes slideIn1 {
-  100% {
-    margin-left: 100%;
-    opacity: 0;
-  }
-  0% {
-    margin-right: 0%;
-    opacity: 1;
-  }
-}
-@keyframes fadeIn1 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes slideIn2 {
-  100% {
-    margin-left: 100%;
-    opacity: 0;
-  }
-  0% {
-    margin-right: 0%;
-    opacity: 1;
-  }
-}
-@keyframes fadeIn2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes slideIn3 {
-  100% {
-    margin-left: 100%;
-    opacity: 0;
-  }
-  0% {
-    margin-right: 0%;
-    opacity: 1;
-  }
-}
-@keyframes fadeIn3 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import figmaIcon from '../../images/figma.png'
 import gitIcon from '../../images/git.png'
 import linuxIcon from '../../images/linux.png'

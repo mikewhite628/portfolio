@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Header from '../Header/Header'
 import Skills from './Skills'
 import Tools from './Tools'
@@ -7,11 +7,11 @@ import ytPic from '../../images/youtube.png'
 import twitterPic from '../../images/twitter.png'
 
 
+
 const About = () => {
 
-    return (
-        
-        <div className='about' style={{
+    return ( 
+        <div className='about' id='about' style={{
         backgroundColor: '$eeeeee',
         color: '#252a34'
         }}>
