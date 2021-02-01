@@ -5,6 +5,7 @@ import cvPic from '../../images/cv.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import '../../App.css'
+import Header from '../Header/Header'
 
 const Projects = () => {
     useEffect(() => {
@@ -16,6 +17,8 @@ const Projects = () => {
            backgroundColor:'#eeeeee',
            color: '#252a34'
         }}>
+        <Header />
+
             <h1 className='project-title' id='projects'> Projects </h1>
                 <div className='project1' data-aos='fade-right'><a href='https://mikewhite628.github.io/weather-app/'><img src={weatherPic} className='project-image weather-app project-shadow'/></a></div>
                 <div className='project1-desc desc-text' data-aos='fade'><h2>Weather Checker</h2><p>Used a weather api to create a simple weather app that can be used to display any cities current weather conditions. Made with Pure Javascript</p></div>

@@ -15,7 +15,6 @@ const About = () => {
         backgroundColor: '$eeeeee',
         color: '#252a34'
         }}>
-            <Header />
             <div className='about-text'>
             <h1 className='about-title'> About </h1>
             I'm a self taught developer who loves simple, effective design. 
