@@ -15,7 +15,7 @@ const Landing = () => {
             
             <div className='me'><img src={mePic} className='me-pic'/></div>
             <h2 className='greeting'
-                style={{color: '#eaeaea'}}> Hi I'm <b style={{color: "#ff2e63"}}>Michael White</b>, I'm a Web Developer and Marine Corps Veteran  
+                style={{color: '#eaeaea'}}> Hi I'm <b style={{color: "#ff2e63"}}>Michael White</b>, I'm a Web Developer and Marine Corps Veteran <br /> 
                 <span><Link to='about' smooth={true} duration={1000}
                 style={
                     {border: '3px solid',
