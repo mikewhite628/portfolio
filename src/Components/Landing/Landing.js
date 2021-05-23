@@ -2,45 +2,34 @@ import React from 'react'
 import deskPic from '../../images/desk.png'
 import mePic from '../../images/me.png'
 import { Link } from 'react-scroll'
+import { Container, Row, Col, Image, Button, Card} from 'react-bootstrap'
 
 
 const Landing = () => {
 
     return (
-        <div className='landing-container'
-        style={{
-            backgroundColor: '#252a34',
-            }}> 
-        <div className='landing' id={'landing'}>
-            
-            <div className='me'><img src={mePic} className='me-pic'/></div>
-            <h2 className='greeting'
-                style={{color: '#eaeaea'}}> Hi I'm <b style={{color: "#ff2e63"}}>Michael White</b>, I'm a Web Developer and Marine Corps Veteran
-                <button
-                    style={
-                        {border: '3px solid',
-                         marginLeft: '10px',
-                         textDecoration: 'none',
-                         paddingLeft: '10px',
-                         paddingRight: '10px',
-                         color: '#08d9d6',
-                         backgroundColor:'#252a34',
-                         borderRadius:'10px',
-                         fontSize: '20px',
-                         fontFamily:'Barlow Condensed',
-                         paddingBottom:'5px',
-                         outline: 'none'
-                        }}                
-                ><Link to='about' smooth={true} duration={1000}>
-                 Learn-more
-                    </Link>
-                    </button>
-            </h2>
-            
-
-            <div className='desk'> <img src={deskPic} className='desk-pic' /></div>
-        </div>
-        </div>
+        <Container fluid style={{backgroundColor: '#252a34'}} className='landing' id={'landing'}> 
+            <Row><div style={{height:'150px'}}>hellow</div></Row>
+            <Row className='justify-content-center align-items-center'>
+                <Col xs={4}>
+                    <Image src={mePic} roundedCircle fluid/>
+                </Col>
+                <Col xs={8} >
+                    <Card style={{border:'none', fontSize:'22px'}}>
+                        <Card.Body style={{color: '#eaeaea', backgroundColor: '#252a34'}} outline='none'>
+                            <Card.Text>
+                            Hi I'm <b style={{color: "#ff2e63"}}>Michael White</b>, I'm a Web Developer and Marine Corps Veteran
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row className='justify-content-center' style={{textAlign: 'center'}}>
+                <Col xs={9} >
+                    <Button variant='info'><Link to='about' smooth={true} duration={1000}>Learn-more</Link></Button>
+                </Col>
+            </Row>           
+        </Container>
     )
 }
 

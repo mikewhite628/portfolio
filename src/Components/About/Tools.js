@@ -8,6 +8,7 @@ import npmIcon from '../../images/npm.png'
 import psIcon from '../../images/ps.png'
 import vscIcon from '../../images/vsc.png'
 import webpackIcon from '../../images/webpack.png'
+import { Image } from 'react-bootstrap'
 
 
 const Tools = () => {
@@ -15,15 +16,15 @@ const Tools = () => {
     return (
             <div className='tools'>
                 <h2 className='tool-title'>Tools</h2>
-                <img src={npmIcon} className='big-icon npm-icon' />
-                <img src={nodeIcon} className='big-icon node-icon' />
-                <img src={gitIcon} className='big-icon git-icon' />
-                <img src={linuxIcon} className='big-icon linux-icon' />
-                <img src={webpackIcon} className='big-icon webpack-icon' />
-                <img src={vscIcon} className='big-icon vsc-icon' />
-                <img src={psIcon} className='big-icon ps-icon' />
-                <img src={figmaIcon} className='big-icon figma-icon' />
-                <img src={lofiIcon} className='big-icon lofi-icon' />
+                <Image fluid src={npmIcon} className='big-icon npm-icon' />
+                <Image fluid src={webpackIcon} className='big-icon webpack-icon' />
+                <Image fluid src={nodeIcon} className='big-icon node-icon' />
+                <Image fluid src={psIcon} className='big-icon ps-icon' />
+                <Image fluid src={gitIcon} className='big-icon git-icon' />
+                <Image fluid src={lofiIcon} className='big-icon lofi-icon' />
+                <Image fluid src={linuxIcon} className='big-icon linux-icon' />
+                <Image fluid src={vscIcon} className='big-icon vsc-icon' />
+                <Image fluid src={figmaIcon} className='big-icon figma-icon' />
                 <div className='dpad-x'></div>
                 <div className='dpad-y'></div>
                 <div className='selectors'></div>
