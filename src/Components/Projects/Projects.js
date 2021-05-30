@@ -1,7 +1,7 @@
 import React, {useEffect } from 'react'
-import weatherPic from '../../images/weather-app.png'
-import todoPic from '../../images/todo.png'
-import cvPic from '../../images/cv.png'
+import camoPic from '../../images/CTC.png'
+import fbccPic from '../../images/FBCC.png'
+import gsPic from '../../images/gamestore.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import '../../App.css'
@@ -19,13 +19,13 @@ const Projects = () => {
         <h1 className='project-title' > Projects </h1>
           <Row>
             <Col md={6}>
-                <a href='https://mikewhite628.github.io/weather-app/'><Image fluid src={weatherPic} data-aos='fade-right' className='project-shadow'/></a>
+                <a href='https://mikewhite628.github.io/weather-app/'><Image fluid src={camoPic} data-aos='fade-right' className='project-shadow'/></a>
             </Col>
             <Col>
                 <Card data-aos='fade'>
                     <Card.Body>
-                    <Card.Title>Weather Checker</Card.Title>
-                    <Card.Text>Used a weather api to create a simple weather app that can be used to display any cities current weather conditions. Made with Pure Javascript</Card.Text>
+                    <Card.Title>Camo To Code</Card.Title>
+                    <Card.Text>A platform made for veterans that provides access to resources for learning how to code</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
@@ -33,13 +33,13 @@ const Projects = () => {
                     
           <Row className='mt-5'>
               <Col Col md={6}>
-                <a href='https://mikewhite628.github.io/to-do-list//'><Image fluid src={todoPic} data-aos='fade-right'className='project-shadow'/></a>
+                <a href='https://mikewhite628.github.io/landing-page/#/'><Image fluid src={fbccPic} data-aos='fade-right'className='project-shadow'/></a>
               </Col>
               <Col>
                 <Card data-aos='fade'>
                     <Card.Body>
                         <Card.Title>
-                          To-Do List
+                          Fort Bend Carpet and Upholstery Care
                         </Card.Title>
                         <Card.Text>
                         A to-do list that uses local storage to save important task. Sub task can be added, marked complete, and removed to monitor progress. Made with pure Javascript
@@ -51,16 +51,16 @@ const Projects = () => {
 
           <Row className='mt-5 mb-5'>
               <Col md={6}>
-                <a href='https://mikewhite628.github.io/cv-project//'><Image fluid src={cvPic} data-aos='fade-right' className='project-shadow'/></a>
+                <a href='https://shielded-brushlands-63167.herokuapp.com/inventory'><Image fluid src={gsPic} data-aos='fade-right' className='project-shadow'/></a>
               </Col>
               <Col Col md={6}>
               <Card data-aos='fade'>
                   <Card.Body>
                       <Card.Title>
-                        CV
+                        The GameStore
                       </Card.Title>
                       <Card.Text>
-                        Used React to create a resume that the user can that users can update with their own information
+                        Full Stack video game store inventory managment system. 
                       </Card.Text>
                   </Card.Body>
               </Card>

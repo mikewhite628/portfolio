@@ -9,7 +9,7 @@ const Landing = () => {
 
     return (
         <Container fluid style={{backgroundColor: '#252a34'}} className='landing' id={'landing'}> 
-            <Row><div style={{height:'150px'}}>hellow</div></Row>
+            <Row><div style={{height:'150px'}}>hello</div></Row>
             <Row className='justify-content-center align-items-center'>
                 <Col xs={4}>
                     <Image src={mePic} roundedCircle fluid/>
