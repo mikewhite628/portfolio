@@ -19,11 +19,11 @@ const Skills = () => {
 
     return (
         <div className='skills'>
-            <div className='js skill-bar'><div className='js-meter meter' data-aos='load-js'></div><img src={jsIcon} className='icon js-icon' data-aos='pulse' /></div>
-            <div className='html skill-bar'><div className='html-meter meter' data-aos='load-html'></div><img src={htmlIcon} className='icon html-icon' data-aos='pulse' /></div>
-            <div className='css skill-bar'><div className='css-meter meter' data-aos='load-css'></div><img src={cssIcon} className='icon css-icon' data-aos='pulse' /></div>
-            <div className='sass skill-bar'><div className='sass-meter meter' data-aos='load-sass'></div><img src={sassIcon} className='icon sass-icon' data-aos='pulse' /></div>
-            <div className='react skill-bar'><div className='react-meter meter' data-aos='load-react'></div><img src={reactIcon} className='icon react-icon' data-aos='pulse' /></div>
+            <div className='js skill-bar project-shadow'><div className='js-meter meter' data-aos='load-js'></div><img src={jsIcon} className='icon js-icon' data-aos='pulse' /></div>
+            <div className='html skill-bar project-shadow'><div className='html-meter meter' data-aos='load-html'></div><img src={htmlIcon} className='icon html-icon' data-aos='pulse' /></div>
+            <div className='css skill-bar project-shadow'><div className='css-meter meter' data-aos='load-css'></div><img src={cssIcon} className='icon css-icon' data-aos='pulse' /></div>
+            <div className='sass skill-bar project-shadow'><div className='sass-meter meter' data-aos='load-sass'></div><img src={sassIcon} className='icon sass-icon' data-aos='pulse' /></div>
+            <div className='react skill-bar project-shadow'><div className='react-meter meter' data-aos='load-react'></div><img src={reactIcon} className='icon react-icon' data-aos='pulse' /></div>
         </div>
     )
 }

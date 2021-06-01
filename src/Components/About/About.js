@@ -15,8 +15,8 @@ const About = () => {
         <Container fluid className='about mt-5' id='about' style={{ backgroundColor: '#eeeeee', color: '#252a34'}}>
           <Row>
             <Col md={6}>
-              <Card style={{ backgroundColor: '#eeeeee', border:'none'}}>
-              <Card.Title className='title-center-text'> Who is Michael? </Card.Title>
+              <Card className='project-shadow'>
+              <Card.Header className='title-center-text blue-background'> Who is <span className='pink-text'>Michael?</span> </Card.Header>
               <Card.Body>
                 I'm all about simple design and simple solutions.
               </Card.Body> 
@@ -39,7 +39,7 @@ const About = () => {
           </Row>
           <Row className='justify-content-center mt-5'>
             <Col md='auto' xs='auto'>
-                <a href='https://twitter.com/Th3MichaelWhite'><img src={twitterPic} className='social-icon' /></a>
+                <a href='https://twitter.com/Th3MichaelWhite'><img src={twitterPic} className='social-icon project-shadow' /></a>
                 <a href='https://github.com/mikewhite628'><img src={ghPic} className='social-icon' /></a>
                 <a href='https://www.youtube.com/channel/UCPyST5UFOezhL7cErL0Zysw'><img src={ytPic} className='social-icon' /></a>
             </Col>
