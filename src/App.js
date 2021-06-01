@@ -11,7 +11,7 @@ import { Container } from 'react-bootstrap'
 
 function App() {
   return (
-    <Container fluid style={{backgroundColor: '#eeeeee'}}>
+    <Container fluid className='app no-padding'>
       <Landing />
       <About />
       <Projects />

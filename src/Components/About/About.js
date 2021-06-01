@@ -16,8 +16,21 @@ const About = () => {
           <Row>
             <Col md={6}>
               <Card style={{ backgroundColor: '#eeeeee', border:'none'}}>
-              <h1> About </h1>
-              I'm a self taught developer who loves simple, effective design.            
+              <Card.Title className='title-center-text'> Who is Michael? </Card.Title>
+              <Card.Body>
+                I'm all about simple design and simple solutions.
+              </Card.Body> 
+              <Card.Body>
+              As a US Marine Corps Veteran I've learned to use 
+              collaboration, cooperation, and my own personal development as tools to ensure success.
+              </Card.Body>
+              <Card.Body>
+              Thanks to my background in administrative and logistics work I have unique perspective to the overall scope when approaching projects.
+              </Card.Body>   
+              <Card.Body>
+              If you can think it, we can build it!
+              </Card.Body>           
+
               </Card>
             </Col>
             <Col md={6}>
@@ -31,7 +44,7 @@ const About = () => {
                 <a href='https://www.youtube.com/channel/UCPyST5UFOezhL7cErL0Zysw'><img src={ytPic} className='social-icon' /></a>
             </Col>
           </Row>
-          <Row className='justify-content-center mt-5'>
+          <Row className='justify-content-center mt-5 mb-5'>
             <Col md='auto' xs='auto'>
               <Tools />
             </Col>

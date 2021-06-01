@@ -8,6 +8,42 @@ body {
   overflow-y: scroll;
 }
 
+a {
+  text-decoration: none;
+}
+
+.app {
+  background-color: #eeeeee
+}
+
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.title-center-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.pink-background {
+  background-color: #ff2e63 !important;
+  border: none !important;
+}
+
+.blue-background {
+  background-color:#252a34 !important;
+  color: white;
+}
+
+.grow {
+  transition: all .1s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.02);
+  background-color: #eeeeee !important;
+}
 
 .nav {
   list-style: none;
@@ -41,6 +77,7 @@ body {
 
 .landing {
   min-height: 100vh;
+  background-color: #252a34
 }
 
 
@@ -76,6 +113,7 @@ body {
   margin-bottom: 5px;
   padding: 10px;
   margin-top: 15px;
+  padding-left: 8px;
 }
 
 .meter {
@@ -291,7 +329,7 @@ body {
 }
 
 .project-shadow {
-  box-shadow: 5px 5px 20px;
+  box-shadow: 5px 5px 20px #999999;
 }
 
 
