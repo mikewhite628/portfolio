@@ -25,10 +25,10 @@ const About = () => {
               collaboration, cooperation, and my own personal development as tools to ensure success.
               </Card.Body>
               <Card.Body>
-              Thanks to my background in administrative and logistics work I have unique perspective to the overall scope when approaching projects.
+              Thanks to my background in administrative and logistics work, I have unique perspective to the overall scope when approaching projects.
               </Card.Body>   
               <Card.Body>
-              If you can think it, we can build it!
+              If we can think it, we can build it!
               </Card.Body>           
 
               </Card>

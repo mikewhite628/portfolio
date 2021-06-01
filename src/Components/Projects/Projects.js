@@ -26,7 +26,7 @@ const Projects = () => {
                   <Card.Header className='title-center-text blue-background'>Camo To Code</Card.Header>
                     <Card.Body>
                     <Card.Title>An Educational Tool For Veterans</Card.Title>
-                    <Card.Text> Camo To Code is a platform made for veterans that provides access to resources for self education in web development and porgramming.</Card.Text>
+                    <Card.Text> Camo To Code is a platform made for veterans that provides access to resources for self education in web development and programming.</Card.Text>
                     </Card.Body>
                     <Card.Body>
                     <ListGroup as="ul">
@@ -83,7 +83,7 @@ const Projects = () => {
                         An inventory management system for a video game store
                       </Card.Title>
                       <Card.Text>
-                        This is a full stack video inventory managment system. Users can add, remove and update items from the inventories database. 
+                        This is a full stack video inventory managment system hosted on AWS. Users can add, remove and update items from the inventories database. 
                       </Card.Text>
                   </Card.Body>
                   <Card.Body>
@@ -93,7 +93,7 @@ const Projects = () => {
                       </ListGroup.Item>
                       <ListGroup.Item className='grow' as="li">Express</ListGroup.Item>
                       <ListGroup.Item className='grow' as="li">MongoDB</ListGroup.Item>
-                      <ListGroup.Item className='grow' as="li">React</ListGroup.Item>
+                      <ListGroup.Item className='grow' as="li">PUG</ListGroup.Item>
                       <ListGroup.Item className='grow' as="li">Javascript</ListGroup.Item>
                       <ListGroup.Item className='grow' as="li">Bootstrap</ListGroup.Item>
                     </ListGroup>
