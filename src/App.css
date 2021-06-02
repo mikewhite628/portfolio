@@ -4,6 +4,7 @@ body {
   background-color: #eeeeee;
   font-family: "Barlow Condensed";
   height: 100%;
+  width:100%;
   overflow-x: hidden;
 }
 
@@ -80,7 +81,7 @@ a {
 
 .landing {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-color: #252a34
 }
 
