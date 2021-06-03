@@ -13,7 +13,7 @@ const About = () => {
 
     return ( 
         <Container fluid className='about mt-5' id='about' style={{ backgroundColor: '#eeeeee', color: '#252a34'}}>
-          <Row>
+          <Row className='justify-content-center'>
             <Col md={6}>
               <Card className='project-shadow'>
               <Card.Header className='title-center-text blue-background'> Who is <span className='pink-text'>Michael?</span> </Card.Header>

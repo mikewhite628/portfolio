@@ -108,7 +108,7 @@ a {
   width: 100%;
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
-  max-width: 450px;
+  padding-right: 10px;
 }
 
 .skill-bar {
