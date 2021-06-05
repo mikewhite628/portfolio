@@ -19,7 +19,7 @@ const Projects = () => {
         <h1 className='project-title'> Projects </h1>
           <Row>
             <Col md={6} className='mb-3'>
-                <a href='https://mikewhite628.github.io/CamoToCode/'><Image fluid src={camoPic} data-aos='fade-right' className='project-shadow'/></a>
+                <a href='https://camotocode.com'><Image fluid src={camoPic} data-aos='fade-right' className='project-shadow'/></a>
             </Col>
             <Col>
                 <Card data-aos='fade' className='project-shadow'>
