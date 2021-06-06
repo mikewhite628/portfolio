@@ -1,5 +1,4 @@
 import React from 'react'
-import deskPic from '../../images/desk.png'
 import mePic from '../../images/me.png'
 import { Link } from 'react-scroll'
 import { Container, Row, Col, Image, Button, Card} from 'react-bootstrap'

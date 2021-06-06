@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../Header/Header'
 import Skills from './Skills'
 import Tools from './Tools'
 import ghPic from '../../images/github.png'
