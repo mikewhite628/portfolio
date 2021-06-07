@@ -23,7 +23,7 @@ const Projects = () => {
             </Col>
             <Col>
                 <Card data-aos='fade' className='project-shadow'>
-                  <Card.Header className='title-center-text blue-background'>Camo To Code</Card.Header>
+                <a href='https://camotocode.com'><Card.Header className='title-center-text blue-background'>Camo To Code</Card.Header></a>
                     <Card.Body>
                     <Card.Title>An Educational Tool For Veterans</Card.Title>
                     <Card.Text> Camo To Code is a platform made for veterans that provides access to resources for self education in web development and programming.</Card.Text>
@@ -48,7 +48,7 @@ const Projects = () => {
               </Col>
               <Col>
                 <Card data-aos='fade' className='project-shadow'>
-                  <Card.Header className='title-center-text blue-background'>Fort Bend Carpet and Upholstery Care</Card.Header>
+                <a href='https://mikewhite628.github.io/landing-page/#/'><Card.Header className='title-center-text blue-background'>Fort Bend Carpet and Upholstery Care</Card.Header></a>
                     <Card.Body>
                         <Card.Title>
                           A Landing Page For A Small Company
@@ -77,7 +77,7 @@ const Projects = () => {
               </Col>
               <Col Col md={6}>
               <Card data-aos='fade' className='project-shadow'>
-                <Card.Header className='title-center-text blue-background'>The GameHouse</Card.Header>
+              <a href='https://shielded-brushlands-63167.herokuapp.com/inventory'><Card.Header className='title-center-text blue-background'>The GameHouse</Card.Header></a>
                   <Card.Body>
                       <Card.Title>
                         An inventory management system for a video game store
